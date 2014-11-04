@@ -9,6 +9,8 @@ SuperRocket Server install
 
 SuperRocket Deployment war
 
+require SuperRocket instance pem file
+
 ## Application
 
 * fabric
