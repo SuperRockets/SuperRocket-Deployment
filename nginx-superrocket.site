@@ -1,0 +1,8 @@
+server {
+    listen      %(port)d;
+    server_name %(server_name)s %(server_alias)s;
+    access_log  /var/log/nginx/%(server_name)s.log;
+    location /static {
+        alias %(static_path)s;
+    }
+}
