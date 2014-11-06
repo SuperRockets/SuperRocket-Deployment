@@ -21,3 +21,7 @@ require SuperRocket instance pem file
 Source Checkout
 
 	git clone git@github.com:SuperRockets/SuperRocket-Deployment.git
+
+Nginx install
+
+	fab setup_web
