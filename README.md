@@ -14,3 +14,10 @@ require SuperRocket instance pem file
 ## Application
 
 * fabric
+* fabtools
+
+### Dev Enviroment
+
+Source Checkout
+
+	git clone git@github.com:SuperRockets/SuperRocket-Deployment.git
