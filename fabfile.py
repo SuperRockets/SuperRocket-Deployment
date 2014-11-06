@@ -21,7 +21,8 @@ def setup_web():
     require.oracle_jdk.installed(version='8u25-b17')
 
     require.tomcat.installed(version='8.0.14')
-    require.service.started()
+    if not require.service.started():
+        require.service.start('tomcat')
 
     require.nginx.server()
     require.nginx.site(env.project_name, template_source='nginx-superrocket.site',
